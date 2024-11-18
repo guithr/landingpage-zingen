@@ -1,0 +1,78 @@
+*,
+*::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  -webkit-font-smoothing: an;
+}
+
+:root {
+  --bg-color: #09090b;
+  --surface-color: #18181b;
+  --stroke-color: #27272a;
+  --text-color-secondary: #a1a1aa;
+  --text-color-primary: #f4f4f5;
+  --brand-color-primary: #f7b733;
+  --brand-color-secondary: #fc4a1a;
+
+  --ff-sans: "Inter", system-ui, sans-serif;
+  --fw-bold: 800;
+  --fw-md: 500;
+  --fw-base: 400;
+
+  --fs-2xl: 2.5rem;
+  --fs-xl: 1.5rem;
+  --fs-lg: 1.25rem;
+  --fs-base: 1rem;
+  --fs-sm: 0.875rem;
+}
+
+html {
+  font-family: var(--ff-sans);
+  font-weight: var(--fw-base);
+  font-size: var(--fs-base);
+  line-height: 1.6;
+  color: var(--text-color-primary);
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  color: var(--text-color-primary);
+  font-weight: var(--fw-bold);
+  letter-spacing: -0.04em;
+}
+
+h1 {
+  font-size: var(--fs-2xl);
+}
+h2 {
+  font-size: var(--fs-xl);
+}
+h3 {
+  font-size: var(--fs-lg);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul[role="list"] {
+  list-style: none;
+}
+
+@media (width >= 80em) {
+  :root {
+    --fs-2xl: 4rem;
+    --fs-xl: 3rem;
+    --fs-lg: 2rem;
+  }
+}
