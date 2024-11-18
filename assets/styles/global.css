@@ -17,16 +17,28 @@
   --brand-color-primary: #f7b733;
   --brand-color-secondary: #fc4a1a;
 
+  /* FF = FONT-FAMILY */
   --ff-sans: "Inter", system-ui, sans-serif;
+
+  /* FW = FONT-WEIGHT */
   --fw-bold: 800;
   --fw-md: 500;
   --fw-base: 400;
 
+  /* FS = FONT-SIZE */
   --fs-2xl: 2.5rem;
   --fs-xl: 1.5rem;
   --fs-lg: 1.25rem;
   --fs-base: 1rem;
   --fs-sm: 0.875rem;
+
+  /* PX = PADDING X */
+  --px-lg: 1.5rem;
+
+  /* PY = PADDING Y */
+  --py-base: 1rem;
+  --py-lg: 1.5rem;
+  --py-xl: 3rem;
 }
 
 html {
@@ -74,5 +86,10 @@ ul[role="list"] {
     --fs-2xl: 4rem;
     --fs-xl: 3rem;
     --fs-lg: 2rem;
+
+    --py-base: 1.5rem;
+    --py-lg: 2.5rem;
+    --py-xl: 5rem;
+    --px-lg: 2rem;
   }
 }
