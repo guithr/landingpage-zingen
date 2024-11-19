@@ -90,6 +90,16 @@ ul[role="list"] {
   list-style: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 1rem;
+}
+
 @media (width >= 80em) {
   :root {
     --fs-2xl: 4rem;
